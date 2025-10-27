@@ -46,6 +46,6 @@ Visualized the Confusion Matrix to analyze prediction distribution.
 <br>The project successfully demonstrates how machine learning can be applied in healthcare scheduling to reduce appointment no-shows.
 The analysis indicates that sending SMS reminders significantly improves attendance rates. Other factors like age and chronic conditions also contribute to patient reliability.
 The Decision Tree model provides interpretable results that can guide administrative decisions.
-By integrating these predictive insights into hospital management systems, healthcare providers can optimize scheduling, reduce idle time, and enhance patient care efficiency.
+By integrating these predictive insights into hospital management systems, healthcare providers can optimize scheduling, reduce idle time, and enhance patient care efficiency.<br>
 <br>Regards,
 <br>Shrish
