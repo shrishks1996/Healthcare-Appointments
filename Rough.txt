@@ -1,0 +1,47 @@
+#print(df.info())
+
+ #   Column           Non-Null Count   Dtype
+---  ------           --------------   -----
+ 0   Patient_Id       106987 non-null  float64
+ 1   Appointment_Id   106987 non-null  int64
+ 2   Gender           106987 non-null  object
+ 3   Scheduled_Day    106987 non-null  object
+ 4   Appointment_Day  106987 non-null  object
+ 5   Age              106987 non-null  int64
+ 6   Neighbourhood    106987 non-null  object
+ 7   Scholarship      106987 non-null  bool
+ 8   Hipertension     106987 non-null  bool
+ 9   Diabetes         106987 non-null  bool
+ 10  Alcoholism       106987 non-null  bool
+ 11  Handicap         106987 non-null  bool
+ 12  Sms_Received     106987 non-null  bool
+ 13  Showed_Up        106987 non-null  bool
+ 14  Date_Diff        106987 non-null  int64
+ 15  Showed           106987 non-null  int64
+ 16  SMS              106987 non-null  int64
+ 17  Handicapped      106987 non-null  int64
+ 18  Alcoholic        106987 non-null  int64
+ 19  Diabetic         106987 non-null  int64
+ 20  Hipertensed      106987 non-null  int64
+ 21  Scholarshipped   106987 non-null  int64
+
+
+print(df.columns)
+Index(['Patient_Id', 'Appointment_Id', 'Gender', 'Scheduled_Day',
+       'Appointment_Day', 'Age', 'Neighbourhood', 'Scholarship',
+       'Hipertension', 'Diabetes', 'Alcoholism', 'Handicap', 'Sms_Received',
+       'Showed_Up', 'Date_Diff', 'Showed', 'SMS', 'Handicapped', 'Alcoholic',
+       'Diabetic', 'Hipertensed', 'Scholarshipped'],
+
+
+print(df.describe())
+
+          PatientId  AppointmentID            Age      Date.diff
+count  1.069870e+05   1.069870e+05  106987.000000  106987.000000
+mean   1.472814e+14   5.675434e+06      38.316085      10.166721
+std    2.558267e+14   7.133274e+04      22.466214      15.263508
+min    3.921784e+04   5.030230e+06       1.000000      -6.000000
+25%    4.173523e+12   5.640490e+06      19.000000       0.000000
+50%    3.172463e+13   5.680744e+06      38.000000       4.000000
+75%    9.433600e+13   5.725634e+06      56.000000      14.000000
+max    9.999816e+14   5.790484e+06     115.000000     179.000000
